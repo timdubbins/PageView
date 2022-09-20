@@ -9,7 +9,7 @@
 import SwiftUI
 
 public struct PageView<Content: View>: View {
-    let content: () -> Content
+    public let content: () -> Content
 
     public var body: some View {
         GeometryReader { geo in
