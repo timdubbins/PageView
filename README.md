@@ -33,7 +33,7 @@ Finally add an `import PageView` statement at the top of your view file.
 
 ## Usage
 
-```
+```swift
 var body: some View {
     PageView {
         pageOne
